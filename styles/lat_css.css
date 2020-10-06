@@ -1,0 +1,110 @@
+@font-face{
+          font-family: OldNewspaperTypes;
+          src: url('fonts/OldNewspaperTypes.ttf');
+      }
+      @font-face{
+          font-family: Allura-Regular;
+          src: url(fonts/'Allura-Regular.otf');
+      }
+      @font-face{
+          font-family: signs;
+          src: url('fonts/signs.ttf');
+      }
+      @font-face{
+          font-family: Lato-Regular;
+          src: url('fonts/Lato-Regular.ttf');
+      }
+      .current, .current:hover{
+          color:#e8491d;
+      }
+      .wrapper{
+          width: 100%;
+          max-width: 960px;
+          margin: 0 auto;
+          text-align: center;
+      }
+      header nav{
+          margin-top: 3rem;
+          margin-bottom: 6rem;
+      }
+      header div ul{
+          text-align: center;
+          position: relative;
+          display: inline-block;
+      }
+      header div li{
+          float: left;
+      }
+      header div a{
+          color:#000;
+          font-family: signs;
+          font-size: 2rem;
+          text-decoration: none;
+          margin-left: 2rem;
+      }
+      header div span{
+          margin-left: 2rem;
+      }
+      header:after{
+          content: "";
+          display: block;
+          clear: both;
+      } 
+      .main-desc{   
+          float: left;
+          width: 50%;
+          display: block;
+      }
+      .main-desc h1{
+          font-family: Allura-Regular;
+          font-size: 5rem;
+          padding-top: 5rem;
+          padding-bottom: 2rem;
+      }
+      .main-desc h5{
+          font-family: Lato-Regular;
+          font-size: 2rem;
+          padding-bottom: 2rem;
+      }
+      .rizal-img{
+          float: right;
+          width: 50%;
+          height: 100%;
+      }
+      .rizal-img img{
+          width: 300px;
+          border-radius: 2%;
+          -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+          -moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+          box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+      }
+      .icon{
+          background: url('images/home/double-quote-serif-left-48.ico');
+          height: 48px;
+          width:48px;
+          display: block;
+      }
+      .main-desc i{
+          font-family: Lato-Regular;
+          font-size: 1.5rem;
+      }
+      section:after{
+          content: "";
+          display: block;
+          clear: both;
+      }
+      #team_background{
+          background: url('images/team/team_bg.jpg');
+      }
+
+      #team_info{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+
+      }
+      #team_info_details{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+      }
